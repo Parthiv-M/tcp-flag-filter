@@ -1,5 +1,5 @@
 # TCP Flag Filter
-This is a simple command line application that lets a user obtain information about packets filtered according to any of the TCP header flags. Built with [Python (v3.6.9)](https://www.python.org/downloads/release/python-369/), this is can useful tool for network traffic analysis, if used in tandem with other network analysis tools.
+This is a simple command line application that lets a user obtain information about packets filtered according to any of the TCP header flags. Built with [Python (v3.6.9)](https://www.python.org/downloads/release/python-369/), this can useful tool for network traffic analysis, if used in tandem with other network analysis tools.
 
 ## How it Works
 ### Input
