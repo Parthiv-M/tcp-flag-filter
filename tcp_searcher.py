@@ -30,8 +30,8 @@ def search_tcp(filename):
         for packet in sessions[session]:
             try:
                 packet_count = packet_count + 1
-                if packet["TCP"].dport == 80 or packet["TCP"].sport == 80 or packet["TCP"].sport == 443 or packet["TCP"].dport == 443:
-                    # store packet information in a dictionary
+                # store packet information in a dictionary
+                if packet.haslayer("TCP"):
                     packet_dict = {
                         "dport": "",
                         "sport" : "",
@@ -39,7 +39,7 @@ def search_tcp(filename):
                         "s_ip": "",
                         "packet_sum" : "",
                         "flags" : ""
-                    }
+                    } 
                     packet_dict["packet_sum"] = packet.summary()
                     packet_dict["sport"] = packet["TCP"].sport
                     packet_dict["dport"] = packet["TCP"].dport
