@@ -36,15 +36,15 @@ This should get you started with analysing TCP packets based on header flag bits
 
 ## Screenshots
 ### The menu presented to users
-![]("https://github.com/Parthiv-M/tcp-flag-filter/blob/master/extras/image1.png")
+![](https://github.com/Parthiv-M/tcp-flag-filter/blob/master/extras/image1.png)
 ### The menu is prompted again after the user enters a valid file name
-![]("https://github.com/Parthiv-M/tcp-flag-filter/blob/master/extras/image2.png")
+![](https://github.com/Parthiv-M/tcp-flag-filter/blob/master/extras/image2.png)
 ### A summary of the traffic file is given to the user
-![]("https://github.com/Parthiv-M/tcp-flag-filter/blob/master/extras/image3.png")
+![](https://github.com/Parthiv-M/tcp-flag-filter/blob/master/extras/image3.png)
 ### Upon entering a valid TCP flag, a file with the relevant packet details is generated
-![]("https://github.com/Parthiv-M/tcp-flag-filter/blob/master/extras/image4.png")
+![](https://github.com/Parthiv-M/tcp-flag-filter/blob/master/extras/image4.png)
 ### The file containing packet details of the filtered packets
-![]("https://github.com/Parthiv-M/tcp-flag-filter/blob/master/extras/image5.png")
+![](https://github.com/Parthiv-M/tcp-flag-filter/blob/master/extras/image5.png)
 
 ## Contributors
 [Parthiv Menon](https://github.com/Parthiv-M) and [Dhyan Gandhi](https://github.com/Hydron13) worked on this project as part of the **Mini-Project for Computer Networking**. 
